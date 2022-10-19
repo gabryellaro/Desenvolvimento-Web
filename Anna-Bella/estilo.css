@@ -1,0 +1,8 @@
+body{
+    background: rgb(224, 223, 211) url('imagens/fundo.png') ;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 900px;
+}
