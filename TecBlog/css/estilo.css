@@ -21,6 +21,14 @@ body{
 #area-logo,#area-menu{
     padding:10px;
 }
+
+#informacoes{
+    background-color: rgb(231, 231, 231);
+    padding: 8px;
+    margin:10px 250px 10px 10px;
+}
+
+#
 /*Formatações de menu*/
 a{
     text-decoration: none;
@@ -28,12 +36,12 @@ a{
 }
 a:link, a:visited{
     color:white;
-    padding: 8px 16px;
+    padding: 8px 12px;
 }
 a:hover{
-    color:rgb(255, 244, 184);
-    letter-spacing: 1px;
-    transition: 0.3s;
+    color:rgb(110, 99, 0);
+    background-color: rgb(255, 248, 185);
+    
 }
 
 /*Formatações Gerais*/
