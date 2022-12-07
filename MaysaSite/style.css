@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background:linear-gradient(rgb(162, 227, 243), rgb(255, 242, 66));
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 0px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;}
+
+.logo{
+    top:0;
+    left:0;
+    width:20%;
+}
+#maysa{
+    width:300px;
+    border-radius: 200px;
+}
+
+section{
+    margin-top: 200px;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+section div h2{
+    color:aliceblue;
+    display: flex;
+    f;
+}
+
+header ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom:5px;
+}
+
+header ul li a{
+    padding: 6px 10px;
+    color:rgb(50, 159, 202);
+    border-radius: 20px;
+}
+
+header ul li a:hover{
+    letter-spacing: 2px;
+    transition: 0.8s;
+    background:rgb(152, 222, 231);
+    color:rgb(255, 255, 255);
+}
