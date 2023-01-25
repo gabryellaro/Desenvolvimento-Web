@@ -20,12 +20,15 @@
     </header>
 
     <section>
-        <img src="imagens/ceu3.png" id="ceu3">
-        <img src="imagens/lua2.png" id ="lua2">
-        <img src="imagens/mont1.png" id="mont1">
-        <h2 id="text">MoonLovers</h2>
-        <img src="imagens/mont2.png" id="mont2">
-        <img src="imagens/mont3.png" id="mont3">
+        <img src="imagens/nuvem7.png" id="nuvem7">
+        <img src="imagens/nuvem6.png" id="nuvem6">
+        <img src="imagens/nuvem5.png" id="nuvem5">
+        <img src="imagens/nuvem4.png" id="nuvem4">
+        <img src="imagens/nuvem3.png" id="nuvem3">
+        <h2 id="text">Olá, sou Gabryella!</h2>
+        <img src="imagens/nuvem2.png" id="nuvem2">
+        <img src="imagens/nuvem1.png" id="nuvem1">
+        <img src="imagens/star.png" id="star">
     </section>
 
     <div class="sec">
@@ -113,25 +116,23 @@
     </div>
 
     <script>
-        let ceu3=document.getElementById('ceu3');
-        let lua2=document.getElementById('lua2');
-        let text=document.getElementById('text');
-        let mont1=document.getElementById('mont1');
-        let mont2=document.getElementById('mont2');
-        let mont3=document.getElementById('mont3');
+        /*let text=document.getElementById('text');*/
+        let nuvem1=document.getElementById('nuvem1');
+        let nuvem2=document.getElementById('nuvem2');
+        let nuvem3=document.getElementById('nuvem3');
+        let star=document.getElementById('star');
         let header=document.querySelector('header');
 
         
         window.addEventListener('scroll', function(){
             let value = window.scrollY;
 
-            ceu3.style.top = value * 0.5 + 'px';
-            lua2.style.top = value * 1.05 +'px';
-            mont1.style.top = value * 0.5 + 'px';
-            mont2.style.top = value * 0.4 + 'px';
-            mont3.style.top = value * 0 +'px';
-            text.style.marginRight = value * 4 +'px';
-            header.style.top = value * 0.5 + 'px';
+            nuvem1.style.top = value * 0.1 + 'px';
+            nuvem2.style.top = value * 0 + 'px';
+            nuvem3.style.top = value * 0 +'px';
+            star.style.left = value * 0.7 +'px';
+            /*text.style.marginRight = value * 4 +'px';*/
+            header.style.top = value * 0.2 + 'px';
 
 
         })
